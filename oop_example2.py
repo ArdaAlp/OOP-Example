@@ -5,6 +5,7 @@ password = str(input("Enter Password: "))
 
 if len(password) <= 3:
   print("Password length must be min 4 characters \nPassword set as: 0000")
+  password = "0000"
 
 class user:
   username = username
