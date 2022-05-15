@@ -1,3 +1,5 @@
+#AUTHOR: ARDA ALP
+
 class solider:
   hp = 100
   ammo = 24
