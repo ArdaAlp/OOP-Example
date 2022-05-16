@@ -35,6 +35,6 @@ user1 = user()
 
 # for see your username -> user1.getName()
 # for see your password -> user1.getPass()
-# for see your password and username -> user1.getName()
+# for see your password and username -> user1.info()
 # for change your username -> user1.cName("newUsername")
 # for change your password -> user1.cPass("newPassword")
