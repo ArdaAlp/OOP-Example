@@ -3,8 +3,7 @@
 import random
 import time
 
-data = int(input("which number do you want for find")
-?:")) 
+data = int(input("which number do you want for find?:")) 
 counted = int(input("How many times find it?:")) 
 
 num = random.randrange(0,100)
