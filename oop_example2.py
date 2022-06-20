@@ -12,19 +12,21 @@ class user:
   password = password
  
   def getName(self):
-    print("Username:",self.username)
+    print("\n***USERNAME***\nUsername:",self.username)
   
   def getPass(self):
-    print("Password:",self.password)
+    print("\n***PASSWORD***\nPassword:",self.password)
   
   def info(self):
-    print("Username:",self.username,"\nPassword:",self.password)
+    print("\n***USER INFORMATION***\nUsername:",self.username,"\nPassword:",self.password)
  
-  def cName(self, newName):   
+  def cName(self):   
+    newName = input("Enter new name: ")
     print("Username changed successfully \nNew Username:",newName)
     self.username = newName
   
-  def cPass(self, newPass):
+  def cPass(self):
+    newPass = str(input("Enter new password: ")) 
     if len(newPass) < 4:
       print("Password must be longer than 3 character")
     else:
@@ -32,9 +34,12 @@ class user:
       self.password = newPass
      
 user1 = user()
+user1.getName()
+user1.getPass()
+user1.info()
 
 # for see your username -> user1.getName()
 # for see your password -> user1.getPass()
 # for see your password and username -> user1.info()
-# for change your username -> user1.cName("newUsername")
+# for change your username -> user1.cName()
 # for change your password -> user1.cPass("newPassword")
