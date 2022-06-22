@@ -16,13 +16,12 @@ else:
 
   compMove = rdm.randrange(0,3)
   comp = moves[compMove]
-
+  
   if comp == "rock" and user == "scissors" or comp == "paper" and user == "rock" or comp == "scissors" and user == "paper":
-    print("----------\nComputer:", comp, "\nYou:", user, "\nCOMPUTER WON!")
+    print("----------\nComputer:", comp, "\nYou:", user, "\n----------\nCOMPUTER WON!")
 
   elif comp == user:
     print("----------\nDraw!")
  
   else:
-    print("----------\nComputer:", comp, "\nYou:", user, "\nYOU WON!") 
-    
+    print("----------\nComputer:", comp, "\nYou:", user, "\n----------\nYOU WON!") 
